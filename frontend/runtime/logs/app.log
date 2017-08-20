@@ -1,0 +1,1807 @@
+2017-08-19 06:49:41 [10.0.2.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sports/index". in /vagrant/233games/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('sports/index', Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /vagrant/233games/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#2 {main}
+2017-08-19 06:49:41 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'sports/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '62822'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=sports%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sports%2Findex'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503125381.4079
+    'REQUEST_TIME' => 1503125381
+]
+2017-08-19 08:06:51 [10.0.2.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "news/page". in /vagrant/233games/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/page', Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /vagrant/233games/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#2 {main}
+2017-08-19 08:06:51 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '49597'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503130011.2459
+    'REQUEST_TIME' => 1503130011
+]
+2017-08-19 10:07:52 [10.0.2.2][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Array to string conversion in /vagrant/233games/vendor/yiisoft/yii2/helpers/BaseHtml.php:151
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/helpers/BaseHtml.php(151): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/vagrant/233gam...', 151, Array)
+#1 /vagrant/233games/frontend/widgets/panel/views/normal.php(17): yii\helpers\BaseHtml::tag('<b class="capti...', Array)
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#4 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\widgets\panel\Normal))
+#5 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('normal', Array, Object(frontend\widgets\panel\Normal))
+#6 /vagrant/233games/frontend/widgets/panel/Normal.php(15): yii\base\Widget->render('normal', Array)
+#7 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\panel\Normal->run()
+#8 /vagrant/233games/frontend/views/site/index.php(24): yii\base\Widget::widget(Array)
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#13 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#14 [internal function]: frontend\controllers\SiteController->actionIndex()
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#19 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#21 {main}
+2017-08-19 10:07:52 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '53751'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503137272.1759
+    'REQUEST_TIME' => 1503137272
+]
+2017-08-19 10:07:52 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-19 10:07:52 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '53751'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503137272.1759
+    'REQUEST_TIME' => 1503137272
+]
+2017-08-19 10:57:36 [10.0.2.2][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: alt in /vagrant/233games/frontend/widgets/share/PanelWell.php:13
+Stack trace:
+#0 /vagrant/233games/frontend/widgets/share/PanelWell.php(13): yii\base\ErrorHandler->handleError(8, 'Undefined index...', '/vagrant/233gam...', 13, Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/Object.php(107): frontend\widgets\share\PanelWell->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /vagrant/233games/vendor/yiisoft/yii2/di/Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 /vagrant/233games/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('frontend\\widget...', Array, Array)
+#5 /vagrant/233games/vendor/yiisoft/yii2/BaseYii.php(348): yii\di\Container->get('frontend\\widget...', Array, Array)
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(136): yii\BaseYii::createObject(Array)
+#7 /vagrant/233games/frontend/views/site/index.php(25): yii\base\Widget::widget(Array)
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+2017-08-19 10:57:35 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54672'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503140255.6495
+    'REQUEST_TIME' => 1503140255
+]
+2017-08-19 10:57:36 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-19 10:57:35 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54672'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503140255.6495
+    'REQUEST_TIME' => 1503140255
+]
+2017-08-19 11:40:03 [10.0.2.2][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: tabsBody in /vagrant/233games/frontend/widgets/panel/views/tabs.php:17
+Stack trace:
+#0 /vagrant/233games/frontend/widgets/panel/views/tabs.php(17): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/vagrant/233gam...', 17, Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\widgets\panel\Tabs))
+#4 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('tabs', Array, Object(frontend\widgets\panel\Tabs))
+#5 /vagrant/233games/frontend/widgets/panel/Tabs.php(17): yii\base\Widget->render('tabs', Array)
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\panel\Tabs->run()
+#7 /vagrant/233games/frontend/views/site/index.php(42): yii\base\Widget::widget(Array)
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+2017-08-19 11:40:02 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '57391'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503142802.0571
+    'REQUEST_TIME' => 1503142802
+]
+2017-08-19 11:40:03 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-19 11:40:02 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '57391'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503142802.0571
+    'REQUEST_TIME' => 1503142802
+]
+2017-08-19 14:05:36 [10.0.2.2][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: lVal in /vagrant/233games/frontend/widgets/share/views/timeline-well.php:14
+Stack trace:
+#0 /vagrant/233games/frontend/widgets/share/views/timeline-well.php(14): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/vagrant/233gam...', 14, Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\widgets\share\TimeNewsWell))
+#4 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('timeline-well', Array, Object(frontend\widgets\share\TimeNewsWell))
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(26): yii\base\Widget->render('timeline-well', Array)
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/widgets/panel/views/tabs.php(17): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\widgets\panel\Tabs))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('tabs', Array, Object(frontend\widgets\panel\Tabs))
+#12 /vagrant/233games/frontend/widgets/panel/Tabs.php(17): yii\base\Widget->render('tabs', Array)
+#13 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\panel\Tabs->run()
+#14 /vagrant/233games/frontend/views/site/index.php(42): yii\base\Widget::widget(Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#19 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#20 [internal function]: frontend\controllers\SiteController->actionIndex()
+#21 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#22 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#23 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#24 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#25 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#27 {main}
+2017-08-19 14:05:35 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '52728'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503151535.5887
+    'REQUEST_TIME' => 1503151535
+]
+2017-08-19 14:05:36 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-19 14:05:35 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '52728'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503151535.5887
+    'REQUEST_TIME' => 1503151535
+]
+2017-08-20 04:58:33 [10.0.2.2][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Illegal string offset 'label' in /vagrant/233games/frontend/widgets/share/views/timeline-well.php:8
+Stack trace:
+#0 /vagrant/233games/frontend/widgets/share/views/timeline-well.php(8): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', '/vagrant/233gam...', 8, Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\widgets\share\TimeNewsWell))
+#4 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('timeline-well', Array, Object(frontend\widgets\share\TimeNewsWell))
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): yii\base\Widget->render('timeline-well', Array)
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+2017-08-20 04:58:33 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '53386'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503205113.2284
+    'REQUEST_TIME' => 1503205113
+]
+2017-08-20 04:58:33 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 04:58:33 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '53386'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503205113.2284
+    'REQUEST_TIME' => 1503205113
+]
+2017-08-20 05:20:54 [10.0.2.2][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /vagrant/233games/vendor/yiisoft/yii2/db/Command.php:915
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(915): PDOStatement->execute()
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause'
+The SQL being executed was: SELECT * FROM `wan_parts_assign` WHERE (`part_id`=1) AND (`area_id`=3) ORDER BY `0` in /vagrant/233games/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column '0' in 'order clause'
+)
+
+2017-08-20 05:20:53 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206453.4531
+    'REQUEST_TIME' => 1503206453
+]
+2017-08-20 05:20:54 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:20:53 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206453.4531
+    'REQUEST_TIME' => 1503206453
+]
+2017-08-20 05:21:09 [10.0.2.2][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pulish_at' in 'order clause' in /vagrant/233games/vendor/yiisoft/yii2/db/Command.php:915
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(915): PDOStatement->execute()
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pulish_at' in 'order clause'
+The SQL being executed was: SELECT * FROM `wan_parts_assign` WHERE (`part_id`=1) AND (`area_id`=3) ORDER BY `pulish_at` DESC in /vagrant/233games/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'pulish_at' in 'order clause'
+)
+
+2017-08-20 05:21:09 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54200'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206469.3602
+    'REQUEST_TIME' => 1503206469
+]
+2017-08-20 05:21:10 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:21:09 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54200'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206469.3602
+    'REQUEST_TIME' => 1503206469
+]
+2017-08-20 05:21:27 [10.0.2.2][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'publish_at' in 'order clause' in /vagrant/233games/vendor/yiisoft/yii2/db/Command.php:915
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(915): PDOStatement->execute()
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'publish_at' in 'order clause'
+The SQL being executed was: SELECT * FROM `wan_parts_assign` WHERE (`part_id`=1) AND (`area_id`=3) ORDER BY `publish_at` DESC in /vagrant/233games/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'publish_at' in 'order clause'
+)
+
+2017-08-20 05:21:26 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206486.7684
+    'REQUEST_TIME' => 1503206486
+]
+2017-08-20 05:21:27 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:21:26 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54201'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206486.7684
+    'REQUEST_TIME' => 1503206486
+]
+2017-08-20 05:21:29 [10.0.2.2][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'publish_at' in 'order clause' in /vagrant/233games/vendor/yiisoft/yii2/db/Command.php:915
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(915): PDOStatement->execute()
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'publish_at' in 'order clause'
+The SQL being executed was: SELECT * FROM `wan_parts_assign` WHERE (`part_id`=1) AND (`area_id`=3) ORDER BY `publish_at` DESC in /vagrant/233games/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(34): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'publish_at' in 'order clause'
+)
+
+2017-08-20 05:21:29 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54200'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206489.1811
+    'REQUEST_TIME' => 1503206489
+]
+2017-08-20 05:21:29 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:21:29 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54200'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206489.1811
+    'REQUEST_TIME' => 1503206489
+]
+2017-08-20 05:22:42 [10.0.2.2][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /vagrant/233games/vendor/yiisoft/yii2/db/Command.php:915
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(915): PDOStatement->execute()
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(36): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause'
+The SQL being executed was: SELECT `id`, `title`, `desc`, `publish_at` FROM `wan_news_main` WHERE `id` IN ('1', '2', '3') ORDER BY `0` in /vagrant/233games/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(930): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `t...')
+#1 /vagrant/233games/vendor/yiisoft/yii2/db/Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 /vagrant/233games/vendor/yiisoft/yii2/db/Query.php(213): yii\db\Command->queryAll()
+#3 /vagrant/233games/common/libs/advisory/Home.php(36): yii\db\Query->all()
+#4 /vagrant/233games/common/libs/advisory/Home.php(28): common\libs\advisory\Home::getDataThree()
+#5 /vagrant/233games/frontend/widgets/share/TimeNewsWell.php(10): common\libs\advisory\Home::three()
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): frontend\widgets\share\TimeNewsWell->run()
+#7 /vagrant/233games/frontend/views/site/index.php(72): yii\base\Widget::widget()
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', '[]')
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\SiteController))
+#11 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#12 /vagrant/233games/frontend/controllers/SiteController.php(79): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('', Array)
+#18 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column '0' in 'order clause'
+)
+
+2017-08-20 05:22:42 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54202'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206562.1132
+    'REQUEST_TIME' => 1503206562
+]
+2017-08-20 05:22:42 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:22:42 [10.0.2.2][-][-][info][application] $_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '54202'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503206562.1132
+    'REQUEST_TIME' => 1503206562
+]
+2017-08-20 05:53:44 [10.0.2.2][-][-][error][Error] Error: Class 'frontend\assets\PageAsset' not found in /vagrant/233games/frontend/views/news/page.php:5
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require()
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\NewsController))
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('page', Array, Object(frontend\controllers\NewsController))
+#4 /vagrant/233games/frontend/controllers/NewsController.php(47): yii\base\Controller->render('page', Array)
+#5 [internal function]: frontend\controllers\NewsController->actionPage('1')
+#6 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('page', Array)
+#9 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/page', Array)
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#12 {main}
+2017-08-20 05:53:43 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '55758'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208423.8277
+    'REQUEST_TIME' => 1503208423
+]
+2017-08-20 05:53:44 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:53:43 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '55758'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208423.8277
+    'REQUEST_TIME' => 1503208423
+]
+2017-08-20 05:54:25 [10.0.2.2][-][-][error][Error] Error: Class 'frontend\assets\DiscussAsset' not found in /vagrant/233games/common/widgets/rostrum/views/discuss.php:7
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require()
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(common\widgets\rostrum\Discuss))
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('discuss', Array, Object(common\widgets\rostrum\Discuss))
+#4 /vagrant/233games/common/widgets/rostrum/Discuss.php(10): yii\base\Widget->render('discuss')
+#5 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): common\widgets\rostrum\Discuss->run()
+#6 /vagrant/233games/frontend/views/news/page.php(18): yii\base\Widget::widget()
+#7 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\NewsController))
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('page', Array, Object(frontend\controllers\NewsController))
+#11 /vagrant/233games/frontend/controllers/NewsController.php(47): yii\base\Controller->render('page', Array)
+#12 [internal function]: frontend\controllers\NewsController->actionPage('1')
+#13 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('page', Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/page', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#19 {main}
+2017-08-20 05:54:25 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '55760'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208465.0442
+    'REQUEST_TIME' => 1503208465
+]
+2017-08-20 05:54:25 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 05:54:25 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '55760'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208465.0442
+    'REQUEST_TIME' => 1503208465
+]
+2017-08-20 06:00:14 [10.0.2.2][-][-][error][Error] Error: Class 'frontend\assets\DiscussAsset' not found in /vagrant/233games/common/widgets/rostrum/views/discuss.php:7
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require()
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#2 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(common\widgets\rostrum\Discuss))
+#3 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(234): yii\base\View->render('discuss', Array, Object(common\widgets\rostrum\Discuss))
+#4 /vagrant/233games/common/widgets/rostrum/Discuss.php(10): yii\base\Widget->render('discuss')
+#5 /vagrant/233games/vendor/yiisoft/yii2/base/Widget.php(139): common\widgets\rostrum\Discuss->run()
+#6 /vagrant/233games/frontend/views/news/page.php(18): yii\base\Widget::widget()
+#7 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(330): require('/vagrant/233gam...')
+#8 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/vagrant/233gam...', Array)
+#9 /vagrant/233games/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/vagrant/233gam...', Array, Object(frontend\controllers\NewsController))
+#10 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(381): yii\base\View->render('page', Array, Object(frontend\controllers\NewsController))
+#11 /vagrant/233games/frontend/controllers/NewsController.php(47): yii\base\Controller->render('page', Array)
+#12 [internal function]: frontend\controllers\NewsController->actionPage('1')
+#13 /vagrant/233games/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#14 /vagrant/233games/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 /vagrant/233games/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('page', Array)
+#16 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('news/page', Array)
+#17 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#19 {main}
+2017-08-20 06:00:13 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '56039'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208813.707
+    'REQUEST_TIME' => 1503208813
+]
+2017-08-20 06:00:14 [10.0.2.2][-][-][error][yii\web\Session::open] session_start(): Cannot send session cache limiter - headers already sent (output started at /vagrant/233games/vendor/yiisoft/yii2/web/Response.php:412)
+2017-08-20 06:00:13 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'news/page'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '56039'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=news%2Fpage&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=news%2Fpage&id=1'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503208813.707
+    'REQUEST_TIME' => 1503208813
+]
+2017-08-20 07:33:45 [10.0.2.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "sports/index". in /vagrant/233games/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('sports/index', Array)
+#1 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in /vagrant/233games/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /vagrant/233games/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /vagrant/233games/frontend/web/index.php(23): yii\base\Application->run()
+#2 {main}
+2017-08-20 07:33:45 [10.0.2.2][-][-][info][application] $_GET = [
+    'r' => 'sports/index'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'k8hfpb81h1g9mab7a5g3drprlc'
+    '_csrf-frontend' => '5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Œ9=œúSÑp{¬æA4§Q•ÁW½[øªn]7ñS8CÔCœ\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_COOKIE' => 'advanced-frontend=k8hfpb81h1g9mab7a5g3drprlc; _csrf-frontend=5ef8584705bd73b594f45cf71c685913656b5c271e504b0fc4d032e6ca9548e5a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%8C9%3D%9C%FAS%D1p%7B%AC%E6A4%A7Q%95%C1W%BD%5B%F8%AAn%5D7%F1S8C%D4C%9C%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://dev.233.com:8081/index.php?r=news%2Findex'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'dev.233.com:8081'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'dev.233.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '10.0.2.15'
+    'REMOTE_PORT' => '64847'
+    'REMOTE_ADDR' => '10.0.2.2'
+    'SERVER_SOFTWARE' => 'nginx/1.12.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/vagrant/233games/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=sports%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sports%2Findex'
+    'SCRIPT_FILENAME' => '/vagrant/233games/frontend/web//index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1503214424.9873
+    'REQUEST_TIME' => 1503214424
+]

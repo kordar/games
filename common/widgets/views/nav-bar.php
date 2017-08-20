@@ -18,7 +18,7 @@ echo Nav::widget([
     'options' => ['class' => 'navbar-nav navbar-left'],
     'items' => [
         ['label' => '游戏咨询', 'url' => ['/news/index']],
-        ['label' => '游戏大厅', 'url' => ['/games/index']]
+        ['label' => '竞技大厅', 'url' => ['/sports/index']]
     ],
 ]);
 

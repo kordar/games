@@ -1,0 +1,16 @@
+.sports-hots {
+    padding: 12px 0 0 0;
+}
+
+.sports-hots > div {
+    padding: 0 6px;
+}
+
+.sports-games {
+    padding: 12px;
+}
+
+.sports-games a {
+    margin: 0px 5px;
+}
+

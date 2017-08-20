@@ -28,28 +28,27 @@ AppAsset::register($this);
 
 <div class="wrap">
 
-    <?= \common\widgets\Navbar::widget()?>
-
     <?php if (isset($this->blocks['carousel'])): ?>
         <?= $this->blocks['carousel'] ?>
     <?php endif; ?>
+
+    <?= \frontend\widgets\share\Navbar::widget()?>
+
+
 
 
 
     <div class="container">
 
         <?php if (isset($this->blocks['jumbotron'])): ?>
-            <?= $this->blocks['jumbotron'] ?>
+            <?php $this->blocks['jumbotron'] ?>
         <?php endif; ?>
 
-        <div class="row">
-            <div class="col-sm-12 no-padding-left">
-                <?= Breadcrumbs::widget([
-                    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-                    'options' => ['class'=>'breadcrumb bg-element']
-                ]) ?>
-            </div>
-
+        <div class="col-sm-12 no-padding">
+            <?= Breadcrumbs::widget([
+                'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                'options' => ['class'=>'breadcrumb layout-breadcrumb']
+            ]) ?>
         </div>
 
 

@@ -1,114 +1,77 @@
 <?php
-
-/* @var $this yii\web\View */
-
-$this->title = 'My Yii Application';
+$this->title = '233Games-首页';
 ?>
-<div class="site-index">
 
-    <?php $this->beginBlock('carousel')?>
+<?php $this->beginBlock('carousel')?>
 
-    <div class="row">
-        <div class="col-sm-12">
-
-
-
-            <?php echo \yii\bootstrap\Carousel::widget([
-                'items' => [
-                    // 只有图片的格式
-//                    '<img src="images/carousel1.jpg"/>',
-//                    '<img src="images/carousel2.jpg"/>',
-
-                    // 与上面的效果一致
-//                    ['content' => '<img src="http://www.yii-china.com/statics/images/b_1.jpg"/>'],
-//
-//                    // 包含图片和字幕的格式
-                    [
-                        'content' => '<img src="images/carousel1.jpg"/>',
-                        'caption' => '',
-                        //'options' => [...],       //配置对应的样式
-                    ],
-                    [
-                        'content' => '<img src="images/carousel2.jpg"/>',
-                        'caption' => '',
-                        //'options' => [...],       //配置对应的样式
-                    ],
-                ],
-                'options' => ['class'=>'my-carousel carousel slide'],
-                'showIndicators' => false,
-                'controls' => ['', '']
-            ]);
-            ?>
-
-
-
-
-
-        </div>
-    </div>
-
-    <?php $this->endBlock(); ?>
-
-
-    <div class="body-content">
-
-        <div class="row">
-
-            <div class="col-lg-7">
-                <?= \common\widgets\site\NewsHeader::widget();?>
-            </div>
-
-            <div class="col-lg-5 no-padding-left">
-                <?= \common\widgets\site\Rank::widget();?>
-            </div>
-
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-sm-12">
-                <?= \common\widgets\site\Billing::widget(['alt'=>'ad']);?>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <?= \common\widgets\site\Search::widget();?>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm-12">
-                <?= \common\widgets\site\Billing::widget(['alt'=>'ad2']);?>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-
-            <div class="col-sm-12">
-                <?= \common\widgets\site\CompetitiveGames::widget() ?>
-            </div>
-
-        </div>
-
-
-        <div class="row">
-
-            <div class="col-sm-12">
-                <?= \common\widgets\site\WebGames::widget() ?>
-            </div>
-
-        </div>
-
-
-        </div>
+<div class="jumbotron">
+    <div class="container">
 
     </div>
-
 </div>
+
+
+<?php $this->endBlock();?>
+
+<div class="row">
+    <div class="col-sm-12 col-md-8">
+
+        <div class="layout no-padding">
+            <?= \frontend\widgets\share\Carousel::widget()?>
+        </div>
+
+        <div class="layout">
+            <?= \frontend\widgets\home\NewsRecom::widget()?>
+        </div>
+
+        <?= \frontend\widgets\panel\Normal::widget([
+            'title' => '热门视频',
+            'content' => \frontend\widgets\panel\well\PanelWell::widget(['list'=>[
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+                ['src' => 'images/media.jpg', 'title' => 'ASDF', 'href' => 12],
+            ]])
+        ]) ?>
+
+
+        <?= \frontend\widgets\panel\Tabs::widget([
+            'title' => '热门视频',
+            'navTabs' => [
+                'AAA' => ['label' => 'ATEST', 'active' => 'active'],
+                'BBB' => ['label' => 'BTEST', 'active' => ''],
+            ],
+            'tabContent' => [
+                'AAA' => \frontend\widgets\panel\well\StyleTwo::widget(['list'=>[
+                    ['src' => 'images/p1.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p3.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p1.jpg', 'title' => 'ASDF', 'href' => 12],
+                ]]),
+                'BBB' => \frontend\widgets\panel\well\StyleTwo::widget(['list'=>[
+                    ['src' => 'images/p1.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p3.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p2.jpg', 'title' => 'ASDF', 'href' => 12],
+                    ['src' => 'images/p1.jpg', 'title' => 'ASDF', 'href' => 12],
+                ]]),
+            ]
+        ]) ?>
+
+    </div>
+
+    <div class="col-sm-12 col-md-4 layout-side">
+        <?= \frontend\widgets\panel\Normal::widget([
+            'title' => '热门视频',
+            'content' => \frontend\widgets\share\TimeNewsWell::widget()]) ?>
+    </div>
+</div>
+
 
 

@@ -4,43 +4,37 @@
 
 $this->title = 'News';
 ?>
-<div class="site-index">
 
-    <?php $this->beginBlock('jumbotron')?>
+<?php $this->beginBlock('carousel')?>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <?= \common\widgets\site\Banner::widget();?>
+<div class="jumbotron">
+    <div class="container">
+        asdfdsaf
+    </div>
+</div>
+
+<?php $this->endBlock();?>
+
+
+<div class="row">
+
+    <div class="col-sm-9">
+        <div class="row layout-news-list">
+            <?= \frontend\widgets\advisory\NewsList::widget(['pages'=>$pages, 'newsList'=>$newsList])?>
         </div>
     </div>
 
-    <?php $this->endBlock(); ?>
+    <div class="col-sm-3 no-padding-left">
 
 
+        <?php // \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar.jpg', 'alt'=>'test'])?>
 
-    <div class="row">
+        <?php // \common\widgets\rank\NumbersRank::widget()?>
 
-        <div class="col-sm-9">
-            <?= \common\widgets\advisory\NewsList::widget(['pages'=>$pages, 'newsList'=>$newsList])?>
-        </div>
-
-        <div class="col-sm-3 no-padding-left">
-
-
-            <?= \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar.jpg', 'alt'=>'test'])?>
-
-            <?= \common\widgets\rank\NumbersRank::widget()?>
-
-            <?= \common\widgets\rank\NormalRank::widget()?>
-            
-        </div>
+        <?php // \common\widgets\rank\NormalRank::widget()?>
 
     </div>
-
-
-
-
-
-    <div class="body-content"></div>
 
 </div>
+
+<div class="body-content"></div>

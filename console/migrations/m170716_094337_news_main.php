@@ -23,7 +23,7 @@ class m170716_094337_news_main extends Migration
             'status' => $this->smallInteger()->notNull()->defaultValue(10),
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
-            'publish_date' => $this->integer(),
+            'publish_at' => $this->integer(),
         ], $tableOptions);
 
     }

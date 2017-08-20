@@ -28,6 +28,9 @@ return [
         'parts' => [
             'class' => 'backend\modules\parts\Module',
         ],
+        'res' => [
+            'class' => 'backend\modules\res\Module',
+        ],
     ],
 
     // 组件管理器默认配置

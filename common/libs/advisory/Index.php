@@ -7,6 +7,7 @@ class Index
 {
     static public function newsList($page, $pagesize)
     {
+        self::refreshNewsList();
         $cacheKey = 'common:libs:advisory:index:news:list';
         if (Yii::$app->cache->exists($cacheKey)) {
             return array_slice(Yii::$app->cache->get($cacheKey), ($page -1) * $pagesize, $pagesize);

@@ -30,8 +30,7 @@ class NewsController extends Controller
     {
         $request = Yii::$app->request;
         $page = $request->get('page', 1);
-        $pageSize = $request->get('per-page', 15);
-
+        $pageSize = $request->get('per-page', 2);
         $pages = new Pagination(['totalCount' =>Index::newsListCounts(), 'pageSize' => $pageSize]);
         return $this->render('index', ['pages' => $pages, 'newsList' => Index::newsList($page, $pageSize)]);
     }
@@ -43,10 +42,11 @@ class NewsController extends Controller
      */
     public function actionPage($id)
     {
-        return $this->render('page', ['pageInfo'=>\common\libs\advisory\Page::pageDetail($id)]);
+        $pageInfo = \common\libs\advisory\Page::pageDetail($id);
+        return $this->render('page', ['pageInfo' => $pageInfo]);
     }
 
-    public function actionSignup()
+    /*public function actionSignup()
     {
         $model = new LoginForm();
         Yii::$app->response->format = Response::FORMAT_JSON;
@@ -59,6 +59,6 @@ class NewsController extends Controller
         }
 
         return ['status' => false];
-    }
+    }*/
 
 }

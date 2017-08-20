@@ -1,0 +1,89 @@
+#layout-navbar {
+    margin-bottom: 0;
+}
+
+.layout, .layout-panel, .layout-tabs, .layout-detail {
+    border: whitesmoke solid 1px;
+    background-color: white;
+    padding: 0px 10px;
+    margin: 10px 0;
+}
+
+.layout-news-list {
+    border: whitesmoke solid 1px;
+    background-color: white;
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.layout-breadcrumb {
+    margin: 8px 0 0 0;
+    background-color: white;
+}
+
+@media(min-width:768px) {
+    .layout-side {
+        padding-left: 0;
+    }
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.layout-panel > .panel-heading {
+    background-color: white;
+    border-bottom: #e67e22 1px solid;
+    padding-left: 0;
+}
+
+.layout-panel > .panel-heading > .panel-title > .more {
+    padding-top: 7px;
+}
+
+.layout-panel > .panel-body {
+    padding: 15px 0 0 0;
+
+}
+
+.layout-panel > .panel-body > .row {
+    padding-left: 15px;
+}
+
+/** tabs **/
+.layout-tabs .tabs-title {
+}
+
+.layout-tabs .nav-tabs li a {
+    height: 39px;
+    text-decoration: none;
+}
+
+.layout-tabs .tabs-title h3 {
+    display: block;
+    float: left;
+    margin: 0;
+    line-height: 39px;
+    font-size: 16px;
+}
+
+.layout-tabs > .tab-content {
+    padding-top: 15px;
+}
+
+.layout-tabs > .tab-content .row {
+    padding-left: 15px;
+}
+
+.layout-detail embed {
+    width: 100%;
+    min-height: 300px;
+}

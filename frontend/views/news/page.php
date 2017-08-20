@@ -1,44 +1,41 @@
 <?php
-
-use frontend\assets\PageAsset;
-
-PageAsset::register($this);
 /* @var $this yii\web\View */
 
 $this->title = $pageInfo['title'];
-$this->params['breadcrumbs'][] = ['label'=>'游戏咨询', 'url'=>'#'];
+$this->params['breadcrumbs'][] = ['label'=>'游戏咨询', 'url'=>['news/index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-index">
 
-    <div class="row">
+<?php $this->beginBlock('carousel')?>
 
-        <div class="col-sm-9 bg-element page-detail">
+<div class="jumbotron">
+    <div class="container">
 
-            <?= \common\widgets\advisory\PageDetail::widget(['pageInfo'=>$pageInfo])?>
+    </div>
+</div>
 
-            <?= \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-top.jpg', 'alt'=>'test'])?>
+<?php $this->endBlock();?>
 
-            <?= \common\widgets\rostrum\Discuss::widget()?>
 
-        </div>
 
-        <div class="col-sm-3">
+    <div class="col-sm-9 layout-detail no-margin-top">
 
-            <?= \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar.jpg', 'alt'=>'test'])?>
+        <?= \frontend\widgets\share\Page::widget(['pageInfo'=>$pageInfo])?>
 
-            <?= \common\widgets\rank\NumbersRank::widget()?>
+        <?php // \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-top.jpg', 'alt'=>'test'])?>
 
-            <?= \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar-small.jpg', 'alt'=>'test'])?>
-
-            <?= \common\widgets\rank\NormalRank::widget()?>
-
-        </div>
-
+        <?php // \common\widgets\rostrum\Discuss::widget()?>
 
     </div>
 
+    <div class="col-sm-3">
 
+        <?php // \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar.jpg', 'alt'=>'test'])?>
 
-</div>
+        <?php // \common\widgets\rank\NumbersRank::widget()?>
 
+        <?php // \common\widgets\ad\NormalBar::widget(['href'=>'#', 'src'=>'ad-sidebar-small.jpg', 'alt'=>'test'])?>
+
+        <?php // \common\widgets\rank\NormalRank::widget()?>
+
+    </div>

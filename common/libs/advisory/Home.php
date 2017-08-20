@@ -19,6 +19,47 @@ class Home
         return self::getData();
     }
 
+    static public function three()
+    {
+        $cashKey = 'common:libs:advisory:home:three';
+        if (Yii::$app->cache->exists($cashKey)) {
+            return Yii::$app->cache->get($cashKey);
+        }
+        return self::getDataThree();
+    }
+
+    static public function getDataThree()
+    {
+        $cacheData = [];
+        $indexResults = self::assignQuery()->where(['part_id'=>1])->andWhere(['IN', 'area_id', [3]])->orderBy('item_id DESC')->all();
+        $indexs = ArrayHelper::getColumn($indexResults, 'item_id');
+        $data = self::newsQuery()->select(['id', 'title', 'desc', 'publish_at'])->indexBy('id')->where(['IN', 'id', $indexs])->all();
+        $date = '';
+
+        foreach ($indexResults as $key => $result) {
+
+            $index = $result['item_id'];
+
+            if (empty($data[$index]['publish_at'])) {
+                continue;
+            }
+
+            $_date = date('m.d', $data[$index]['publish_at']);
+
+            if ($date != $_date) {
+                $date = $_date;
+                $cacheData[] = ['id'=>$data[$index]['id'], 'label'=>$data[$index]['title'], 'date'=>$date];
+            } else {
+                $cacheData[] = ['id'=>$data[$index]['id'], 'label'=>$data[$index]['title'], 'date'=>''];
+            }
+        }
+
+        $cashKey = 'common:libs:advisory:home:three';
+        Yii::$app->cache->set($cashKey, $cacheData, 10);
+
+        return $cacheData;
+    }
+
 
     static public function getData()
     {
